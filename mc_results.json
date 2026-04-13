@@ -1,0 +1,141 @@
+{
+  "paper_id": "cre",
+  "config_file": "pipeline/mc_configs/cre.json",
+  "seed": 42,
+  "n_draws": 100000,
+  "n_channels": 6,
+  "correlation_rho": 0.3,
+  "private_payoff_B": 13.0,
+  "beta_w": {
+    "median": 7.78,
+    "mean": 7.83,
+    "std": 0.85,
+    "p1": 6.06,
+    "p5": 6.52,
+    "p95": 9.31,
+    "p99": 10.04,
+    "ci_90": [
+      6.5,
+      9.3
+    ],
+    "ci_99": [
+      6.1,
+      10.0
+    ],
+    "p_below_1": 0.0,
+    "p_below_1_pct": "0.0000%"
+  },
+  "impossibility_floor": {
+    "floor_value": 4.7,
+    "p_below_floor": 0.0,
+    "p_below_floor_pct": "0.0000%"
+  },
+  "welfare_cost": {
+    "total_median_B": 101.2,
+    "total_mean_B": 101.8,
+    "total_p5_B": 84.7,
+    "total_p95_B": 121.0
+  },
+  "pi_sa": {
+    "median_B": 88.2,
+    "mean_B": 88.8,
+    "p5_B": 71.7,
+    "p95_B": 108.0
+  },
+  "channel_statistics": {
+    "C1_banking_fragility": {
+      "median": 24.0,
+      "mean": 24.4,
+      "p5": 18.0,
+      "p95": 32.0,
+      "std": 4.3
+    },
+    "C2_municipal_fiscal_erosion": {
+      "median": 7.5,
+      "mean": 7.6,
+      "p5": 5.6,
+      "p95": 10.0,
+      "std": 1.3
+    },
+    "C3_pension_wealth_destruction": {
+      "median": 32.0,
+      "mean": 32.4,
+      "p5": 25.0,
+      "p95": 41.0,
+      "std": 4.9
+    },
+    "C4_service_worker_displacement": {
+      "median": 18.5,
+      "mean": 18.8,
+      "p5": 13.7,
+      "p95": 25.0,
+      "std": 3.5
+    },
+    "C5_transit_fiscal_collapse": {
+      "median": 6.0,
+      "mean": 6.1,
+      "p5": 4.5,
+      "p95": 8.0,
+      "std": 1.1
+    },
+    "C6_regulatory_capture_lobbying": {
+      "median": 12.5,
+      "mean": 12.6,
+      "p5": 10.4,
+      "p95": 15.0,
+      "std": 1.4
+    }
+  },
+  "sensitivity_matrix": [
+    {
+      "vsl_multiplier": 0.5,
+      "values": {
+        "dc_0pct": 6.5,
+        "dc_10pct": 5.85,
+        "dc_20pct": 5.2,
+        "dc_30pct": 4.55,
+        "dc_40pct": 3.9
+      }
+    },
+    {
+      "vsl_multiplier": 0.75,
+      "values": {
+        "dc_0pct": 7.12,
+        "dc_10pct": 6.4,
+        "dc_20pct": 5.69,
+        "dc_30pct": 4.98,
+        "dc_40pct": 4.27
+      }
+    },
+    {
+      "vsl_multiplier": 1.0,
+      "values": {
+        "dc_0pct": 7.73,
+        "dc_10pct": 6.96,
+        "dc_20pct": 6.18,
+        "dc_30pct": 5.41,
+        "dc_40pct": 4.64
+      }
+    },
+    {
+      "vsl_multiplier": 1.25,
+      "values": {
+        "dc_0pct": 8.35,
+        "dc_10pct": 7.51,
+        "dc_20pct": 6.68,
+        "dc_30pct": 5.84,
+        "dc_40pct": 5.01
+      }
+    },
+    {
+      "vsl_multiplier": 1.5,
+      "values": {
+        "dc_0pct": 8.96,
+        "dc_10pct": 8.07,
+        "dc_20pct": 7.17,
+        "dc_30pct": 6.27,
+        "dc_40pct": 5.38
+      }
+    }
+  ]
+}
